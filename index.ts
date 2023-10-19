@@ -8,7 +8,7 @@ const server = Bun.serve({
         return new Response(body)
       }
       if(url.pathname === '/about'){
-        return new Response('About me!')
+        return new Response('index.html')
       }
       return new Response('404!')
       
